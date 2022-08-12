@@ -119,4 +119,20 @@ a {
 }
 
 @media (max-width: 767px) {
+  .main {
+    padding: 2rem;
+  }
+  .card {
+    width: 100%;
+
+    &__content {
+      padding: 1.2rem;
+    }
+    &__title {
+      font-size: 1.8rem;
+    }
+    &__desc {
+      font-size: 1.2rem;
+    }
+  }
 }
